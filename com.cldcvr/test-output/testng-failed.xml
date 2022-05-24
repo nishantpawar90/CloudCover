@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="APITest(failed)">
+    <parameter name="EnvironmentURL" value="https://api.stackexchange.com/2.3/badges"/>
+    <parameter name="Browser" value="API"/>
+    <classes>
+      <class name="testcases.APICases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mycase"/>
+          <include name="intObjVariables"/>
+          <include name="initBeforeNewTest"/>
+        </methods>
+      </class> <!-- testcases.APICases -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

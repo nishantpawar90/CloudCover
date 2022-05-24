@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-25T00:06:26 IST" name="Suite" finished-at="2022-05-25T00:06:30 IST" duration-ms="4246">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T00:06:26 IST" name="UITest" finished-at="2022-05-25T00:06:26 IST" duration-ms="22">
+    </test> <!-- UITest -->
+    <test started-at="2022-05-25T00:06:26 IST" name="APITest" finished-at="2022-05-25T00:06:30 IST" duration-ms="4113">
+      <class name="testcases.APICases">
+        <test-method is-config="true" signature="intObjVariables()[pri:0, instance:testcases.APICases@14028087]" started-at="2022-05-25T00:06:26 IST" name="intObjVariables" finished-at="2022-05-25T00:06:26 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intObjVariables -->
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.APICases@14028087]" started-at="2022-05-25T00:06:26 IST" name="initBeforeNewTest" finished-at="2022-05-25T00:06:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://api.stackexchange.com/2.3/badges]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method signature="mycase()[pri:0, instance:testcases.APICases@14028087]" started-at="2022-05-25T00:06:26 IST" name="mycase" finished-at="2022-05-25T00:06:30 IST" duration-ms="4079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.APICases@14028087]" started-at="2022-05-25T00:06:30 IST" name="tearDown" finished-at="2022-05-25T00:06:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.APICases -->
+    </test> <!-- APITest -->
+  </suite> <!-- Suite -->
+</testng-results>
