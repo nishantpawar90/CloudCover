@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {}
+    },
+    "has_more": {
+      "type": "boolean"
+    },
+    "quota_max": {
+      "type": "integer"
+    },
+    "quota_remaining": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "items",
+    "has_more",
+    "quota_max",
+    "quota_remaining"
+  ]
+}

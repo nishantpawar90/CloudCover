@@ -6,6 +6,7 @@ import org.testng.Reporter;
 
 import base.BaseClass;
 
+//Class contains all the reusable methods for UI testcases.
 public class PageAction extends BaseClass {
 
 	public void validateTitle(String title) {
@@ -19,8 +20,11 @@ public class PageAction extends BaseClass {
 
 	public void clickElement(String webElement) {
 		try {
-			driver.findElement(By.xpath(webElement)).click();
-			Reporter.log("Clicked on WebElement " + webElement);
+
+			String[] arr = webElement.split("\\|");
+			String xpath = arr[0];
+			driver.findElement(By.xpath(xpath)).click();
+			Reporter.log("Clicked on WebElement - " + webElement.split("\\|")[1]);
 		} catch (Exception e) {
 			Reporter.log("Exception :: clickElement" + e);
 		}

@@ -1,0 +1,956 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "badge_type": {
+              "type": "string"
+            },
+            "award_count": {
+              "type": "integer"
+            },
+            "rank": {
+              "type": "string"
+            },
+            "badge_id": {
+              "type": "integer"
+            },
+            "link": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "badge_type",
+            "award_count",
+            "rank",
+            "badge_id",
+            "link",
+            "name"
+          ]
+        }
+      ]
+    },
+    "has_more": {
+      "type": "boolean"
+    },
+    "quota_max": {
+      "type": "integer"
+    },
+    "quota_remaining": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "items",
+    "has_more",
+    "quota_max",
+    "quota_remaining"
+  ]
+}

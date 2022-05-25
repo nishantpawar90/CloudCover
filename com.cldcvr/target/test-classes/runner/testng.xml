@@ -10,7 +10,7 @@
 	</test> <!-- Test -->
 	<test thread-count="5" name="APITest">
 		<parameter name="Browser" value="API" />
-		<parameter name="EnvironmentURL" value="https://api.stackexchange.com/2.3/badges" />
+		<parameter name="EnvironmentURL" value="https://api.stackexchange.com/2.3/badges/" />
 		<classes>
 			<class name="testcases.APICases" />
 		</classes>

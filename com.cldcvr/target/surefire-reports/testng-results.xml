@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title Validated to Stack Overflow - Where Developers Learn, Share, & Build Careers]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on WebElement - Search Content]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on WebElement - Tags]]>
+    </line>
+    <line>
+      <![CDATA[Title Validated to Tags - Stack Overflow]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on WebElement - Name tab]]>
+    </line>
+    <line>
+      <![CDATA[.htaccess]]>
+    </line>
+    <line>
+      <![CDATA[Response status code validated as 200]]>
+    </line>
+    <line>
+      <![CDATA[Response schema validated.]]>
+    </line>
+    <line>
+      <![CDATA[Extracted data from JSON. Key quota_max. Value:: 300]]>
+    </line>
+    <line>
+      <![CDATA[Response validated using assertStringData.300]]>
+    </line>
+    <line>
+      <![CDATA[Extracted data from JSON. Key quota_remaining. Value:: 273]]>
+    </line>
+    <line>
+      <![CDATA[Response validated using assertBooleanData.true]]>
+    </line>
+    <line>
+      <![CDATA[Response status code validated as 200]]>
+    </line>
+    <line>
+      <![CDATA[Response schema validated.]]>
+    </line>
+    <line>
+      <![CDATA[Response status code validated as 200]]>
+    </line>
+    <line>
+      <![CDATA[Response schema validated.]]>
+    </line>
+    <line>
+      <![CDATA[Extracted data from JSON. Key quota_max. Value:: 300]]>
+    </line>
+    <line>
+      <![CDATA[Response validated using assertStringData.300]]>
+    </line>
+    <line>
+      <![CDATA[Extracted data from JSON. Key quota_remaining. Value:: 271]]>
+    </line>
+    <line>
+      <![CDATA[Response validated using assertBooleanData.true]]>
+    </line>
+    <line>
+      <![CDATA[Response status code validated as 400]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-25T13:34:57 IST" name="Suite" finished-at="2022-05-25T13:35:28 IST" duration-ms="31871">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T13:34:57 IST" name="UITest" finished-at="2022-05-25T13:35:17 IST" duration-ms="20591">
+      <class name="testcases.UICases">
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.UICases@272113c4]" started-at="2022-05-25T13:34:57 IST" name="initBeforeNewTest" finished-at="2022-05-25T13:35:05 IST" duration-ms="8632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://stackoverflow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method signature="getTagWithHighestQue()[pri:0, instance:testcases.UICases@272113c4]" started-at="2022-05-25T13:35:05 IST" name="getTagWithHighestQue" finished-at="2022-05-25T13:35:16 IST" duration-ms="10380" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Validated to Stack Overflow - Where Developers Learn, Share, & Build Careers]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on WebElement - Search Content]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on WebElement - Tags]]>
+            </line>
+            <line>
+              <![CDATA[Title Validated to Tags - Stack Overflow]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on WebElement - Name tab]]>
+            </line>
+            <line>
+              <![CDATA[.htaccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTagWithHighestQue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.UICases@272113c4]" started-at="2022-05-25T13:35:16 IST" name="tearDown" finished-at="2022-05-25T13:35:17 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.UICases -->
+    </test> <!-- UITest -->
+    <test started-at="2022-05-25T13:35:17 IST" name="APITest" finished-at="2022-05-25T13:35:28 IST" duration-ms="11267">
+      <class name="testcases.APICases">
+        <test-method is-config="true" signature="intObjVariables()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:34:57 IST" name="intObjVariables" finished-at="2022-05-25T13:34:57 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intObjVariables -->
+        <test-method signature="validateBadgeByIDResponse()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:17 IST" name="validateBadgeByIDResponse" finished-at="2022-05-25T13:35:23 IST" duration-ms="5788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response status code validated as 200]]>
+            </line>
+            <line>
+              <![CDATA[Response schema validated.]]>
+            </line>
+            <line>
+              <![CDATA[Extracted data from JSON. Key quota_max. Value:: 300]]>
+            </line>
+            <line>
+              <![CDATA[Response validated using assertStringData.300]]>
+            </line>
+            <line>
+              <![CDATA[Extracted data from JSON. Key quota_remaining. Value:: 273]]>
+            </line>
+            <line>
+              <![CDATA[Response validated using assertBooleanData.true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBadgeByIDResponse -->
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:17 IST" name="initBeforeNewTest" finished-at="2022-05-25T13:35:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://api.stackexchange.com/2.3/badges/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:23 IST" name="tearDown" finished-at="2022-05-25T13:35:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:23 IST" name="initBeforeNewTest" finished-at="2022-05-25T13:35:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://api.stackexchange.com/2.3/badges/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method signature="validateBadgeByTagResponse()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:23 IST" name="validateBadgeByTagResponse" finished-at="2022-05-25T13:35:25 IST" duration-ms="1967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response status code validated as 200]]>
+            </line>
+            <line>
+              <![CDATA[Response schema validated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBadgeByTagResponse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:25 IST" name="tearDown" finished-at="2022-05-25T13:35:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:25 IST" name="initBeforeNewTest" finished-at="2022-05-25T13:35:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://api.stackexchange.com/2.3/badges/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method signature="validateBadgeRecepientByIDResponse()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:25 IST" name="validateBadgeRecepientByIDResponse" finished-at="2022-05-25T13:35:27 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response status code validated as 200]]>
+            </line>
+            <line>
+              <![CDATA[Response schema validated.]]>
+            </line>
+            <line>
+              <![CDATA[Extracted data from JSON. Key quota_max. Value:: 300]]>
+            </line>
+            <line>
+              <![CDATA[Response validated using assertStringData.300]]>
+            </line>
+            <line>
+              <![CDATA[Extracted data from JSON. Key quota_remaining. Value:: 271]]>
+            </line>
+            <line>
+              <![CDATA[Response validated using assertBooleanData.true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBadgeRecepientByIDResponse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:27 IST" name="tearDown" finished-at="2022-05-25T13:35:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateInvalidResponse()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:27 IST" name="validateInvalidResponse" finished-at="2022-05-25T13:35:28 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response status code validated as 400]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateInvalidResponse -->
+        <test-method is-config="true" signature="initBeforeNewTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:27 IST" name="initBeforeNewTest" finished-at="2022-05-25T13:35:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://api.stackexchange.com/2.3/badges/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeNewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.APICases@5b1669c0]" started-at="2022-05-25T13:35:28 IST" name="tearDown" finished-at="2022-05-25T13:35:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.APICases -->
+    </test> <!-- APITest -->
+  </suite> <!-- Suite -->
+</testng-results>

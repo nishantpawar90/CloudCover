@@ -6,7 +6,7 @@
       <class name="testcases.APICases">
         <methods>
           <include name="tearDown"/>
-          <include name="mycase"/>
+          <include name="validateInvalidResponse"/>
           <include name="intObjVariables"/>
           <include name="initBeforeNewTest"/>
         </methods>
