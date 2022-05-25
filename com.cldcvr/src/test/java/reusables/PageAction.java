@@ -9,6 +9,7 @@ import base.BaseClass;
 //Class contains all the reusable methods for UI testcases.
 public class PageAction extends BaseClass {
 
+	// Gets the title of page and compares it with passed value.
 	public void validateTitle(String title) {
 		try {
 			Assert.assertEquals(driver.getTitle(), title);
@@ -18,6 +19,8 @@ public class PageAction extends BaseClass {
 		}
 	}
 
+	// click the element. Further optimization can be done to accomodate other
+	// locators like css.
 	public void clickElement(String webElement) {
 		try {
 

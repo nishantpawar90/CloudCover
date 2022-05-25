@@ -8,6 +8,8 @@ import reusables.PageAction;
 
 public class UICases extends PageAction {
 
+	// THis method navigates to the page mentioned in the problem statement and
+	// fetches the tag with highest number of questions.
 	@Test
 	public void getTagWithHighestQue() throws InterruptedException {
 		validateTitle("Stack Overflow - Where Developers Learn, Share, & Build Careers");

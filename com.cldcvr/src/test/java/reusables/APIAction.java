@@ -12,6 +12,8 @@ import io.restassured.response.Response;
 //Class contains all the reusable methods for API testcases.
 public class APIAction extends BaseClass {
 
+	// File path for schema validation. Further optimization can be done by moving
+	// these paths to other location.
 	public String badgeIDSchemaPath = System.getProperty("user.dir")
 			+ "\\src\\test\\java\\jsonSchema\\badgeIDSchema.json";
 	public String badgeRecepientByIDSchemaPath = System.getProperty("user.dir")

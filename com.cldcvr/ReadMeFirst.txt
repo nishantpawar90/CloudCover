@@ -5,4 +5,5 @@ To execute the project there are two different ways.
 
 
 Result
-For quicker view of result, the emailable-report.html file is available at root directory.
+For quicker view of result, the emailable-report.html file is available at root directory. If the suite is executed then the
+results can be found out at test-output folder.

@@ -11,6 +11,8 @@ import reusables.PageAction;
 
 public class Browse extends PageAction {
 
+	// Xpath for the Browse Page. Further optimization can be done by moving these
+	// xpath to external file.
 	String tags_xpath = "//div[contains(text(), 'Tags')]|Tags";
 	String nameTab_xpath = "//a[contains(text(), 'Name')]|Name tab";
 	String numberOfQues = "//div[@class='flex--item' and contains(text(),'questions')]";
